@@ -1,0 +1,27 @@
+{
+  "name": "is-empty",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository":{
+    "url": "https://github.com/ShakthiNR/is-empty"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "isEmpty",
+    "isNull",
+    "isValid",
+    "Valid input",
+    "empty"
+  ],
+  "author": "shakthi-nr",
+  "license": "MIT",
+  "description": "is-empty package used to check the value is empty.",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}

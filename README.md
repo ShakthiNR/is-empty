@@ -15,6 +15,10 @@ has-empty requires [Node.js](https://nodejs.org/) v10+ to run.
 npm i has-empty
  
 const { isEmpty } = require("has-empty");
+
+or 
+
+import { isEmpty } from "has-empty";
 ```
 
 ```js client

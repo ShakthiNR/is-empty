@@ -1,6 +1,6 @@
 {
   "name": "has-empty",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -15,7 +15,8 @@
     "isNull",
     "isValid",
     "Valid input",
-    "empty"
+    "empty",
+    "hasEmpty"
   ],
   "author": "shakthi-nr",
   "license": "MIT",

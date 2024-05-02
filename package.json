@@ -1,11 +1,11 @@
 {
-  "name": "is-empty-value",
+  "name": "is-empty",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "repository":{
-    "url": "https://github.com/ShakthiNR/is-empty"
+  "repository": {
+    "url": "git+https://github.com/ShakthiNR/is-empty.git"
   },
   "scripts": {
     "build": "tsup"

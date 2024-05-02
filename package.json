@@ -1,11 +1,11 @@
 {
-  "name": "is-empty-value",
+  "name": "has-empty",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
-    "url": "git+https://github.com/ShakthiNR/is-empty.git"
+    "url": "https://github.com/ShakthiNR/is-empty"
   },
   "scripts": {
     "build": "tsup"
@@ -19,7 +19,7 @@
   ],
   "author": "shakthi-nr",
   "license": "MIT",
-  "description": "is-empty package used to check the value is empty.",
+  "description": "has-empty-value is a package used to check the value is empty.",
   "devDependencies": {
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"

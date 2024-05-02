@@ -1,7 +1,7 @@
-# is-empty
+# is-empty-value
 ## Function to check the input is non-empty
 
-is-empty is a package used to check if value is empty or not. It returns 'true' if the value empty (ie., 'null', 'undefined', '', '{}', '[]') and 'false' otherwise. Note: 0, false, [""] are considered as non-empty value. Both primitive and non-primitive values are checked.
+is-empty-value is a package used to check if value is empty or not. It returns 'true' if the value empty (ie., 'null', 'undefined', '', '{}', '[]') and 'false' otherwise. Note: 0, false, [""] are considered as non-empty value. Both primitive and non-primitive values are checked.
 
 ## Features
 - Import a package, pass value as argument,
@@ -9,16 +9,16 @@ is-empty is a package used to check if value is empty or not. It returns 'true' 
 - Use case: to validate if we get valid response from server
 
 ## Installation
-is-empty requires [Node.js](https://nodejs.org/) v10+ to run.
+is-empty-value requires [Node.js](https://nodejs.org/) v10+ to run.
 
 ```js
-npm i is-empty
+npm i is-empty-value
 
- import { isEmpty } from "is-empty"
+ import { isEmpty } from "is-empty-value"
 
  or
  
- const { isEmpty } from "is-empty"
+ const { isEmpty } from "is-empty-value"
 ```
 
 ```js client

@@ -14,41 +14,41 @@ has-empty requires [Node.js](https://nodejs.org/) v10+ to run.
 ```js
 npm i has-empty
  
-const { isEmpty } = require("has-empty");
+const { hasEmpty } = require("has-empty");
 
 or 
 
-import { isEmpty } from "has-empty";
+import { hasEmpty } from "has-empty";
 ```
 
 ```js client
 // Examples
 
- isEmpty(null) // true
- isEmpty(undefined) // true
- isEmpty({}) // true
- isEmpty([]) // true
- isEmpty({a: 3, z: 5}) // false
- isEmpty([0, 1]) // false
- isEmpty(new Set([3, 2, 5])) // false
- isEmpty((new Map()).set('a', 22)) // false
- isEmpty(new Set()) // true
- isEmpty(new Map()) // true
- isEmpty('abc') // false
- isEmpty('') // true
- isEmpty('  ') // true
- isEmpty(0) // false
- isEmpty(1) // true
- isEmpty(true) // false
- isEmpty(false) // false
- isEmpty(Symbol('abc')); // false
- isEmpty(Symbol(' ')); // true
- isEmpty(); // true
- isEmpty(new String('xyz')); // false
- isEmpty(new String('')); // true
- isEmpty(new String('  ')); // true
- isEmpty(new Boolean(true)); // false
- isEmpty(new Boolean(false)); // false
+ hasEmpty(null) // true
+ hasEmpty(undefined) // true
+ hasEmpty({}) // true
+ hasEmpty([]) // true
+ hasEmpty({a: 3, z: 5}) // false
+ hasEmpty([0, 1]) // false
+ hasEmpty(new Set([3, 2, 5])) // false
+ hasEmpty((new Map()).set('a', 22)) // false
+ hasEmpty(new Set()) // true
+ hasEmpty(new Map()) // true
+ hasEmpty('abc') // false
+ hasEmpty('') // true
+ hasEmpty('  ') // true
+ hasEmpty(0) // false
+ hasEmpty(1) // false
+ hasEmpty(true) // false
+ hasEmpty(false) // false
+ hasEmpty(Symbol('abc')); // false
+ hasEmpty(Symbol(' ')); // true
+ hasEmpty(); // true
+ hasEmpty(new String('xyz')); // false
+ hasEmpty(new String('')); // true
+ hasEmpty(new String('  ')); // true
+ hasEmpty(new Boolean(true)); // false
+ hasEmpty(new Boolean(false)); // false
 ```
 
 ## License

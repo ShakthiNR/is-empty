@@ -21,7 +21,7 @@ function handleObjectMethod(value: IValue) {
     return false;
 }
 
-export const isEmpty = (value: Partial<IValue>) => {
+export const hasEmpty = (value: Partial<IValue>) => {
     switch (typeof value) {
         case "boolean":
             return false;
